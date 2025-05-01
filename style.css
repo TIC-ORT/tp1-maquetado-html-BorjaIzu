@@ -14,20 +14,22 @@
 }  
 .bottom{
     width: 100%;
-    height: 42%;
     background-color: blueviolet;
+    display: flex;
+    height: max-content;
+    flex-direction: row;
+    
 }
 
 
 body{
     width: 100vw;
-    height: 100vh;
     
 }
 header{
     background: #FED780;
     margin: 4vh 10vw;
-    height: 10vh;
+    height: 8vh;
     width: 80vw;
     display: flex;
     flex-direction: row;
@@ -66,11 +68,12 @@ aside{
 aside p {
     color: #333;
     font-size: 14px;
-    margin: 10px 0;
+    margin: 18px 0;
     margin-left: 30px;
     line-height: 1.5;
     width: 60%;
-    text-align: right;
+    text-align: justify;
+    margin-top: 2px;
   }
   
 .top button {
@@ -110,3 +113,82 @@ aside p {
     color: white;
     margin-bottom: 10px;
   }
+  
+ .izq{
+    background-color: #CCCBCA;
+    width: 50%;
+    padding: 35px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .video {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: flex-start;
+    background-color: #333;
+    align-items: center;
+    justify-content: center;
+    border:10px solid white;
+ }
+ .video img{
+    height: 140px;
+    width: 140px;
+ }
+ .izq button{
+    background-color: #FFB959;
+    width: 20%;
+    margin-top: 20px;
+ }
+ .der{
+    background-color: #484F59;
+    width: 50%;
+    padding: 35px 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ .fotocontainer{
+    width: 70%;
+    background-color: transparent;
+    flex-direction: column;
+ }
+.scroll{
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.scroll img{
+    height: 30%;
+    width: 100%;
+    padding: 0 60px;
+}
+.arriba{
+    transform: rotate(270deg);
+}
+.abajo{
+    transform: rotate(90deg);
+}
+.fotoytexto{
+    display: flex;
+    flex-direction: row;  
+    padding: 15px;
+}
+.fotito{
+    height: 50px;
+    width: 80px;
+    background-color: #CCCBCA;
+}
+.h1{
+    color: #333;
+    font-size: 16px;
+    padding: 5px 9px;
+}
+.p{
+    color: #FFB959;
+    padding: 5px 9px;
+}
